@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Layouts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <nav class="navigation">
-            <div class="container-global flex">
+        <nav class="navigation oswald">
+            <div class="container-global container-nav flex">
                 <div class="container__nav_pri">
                     <p class="navlogo">CRL</p>
                 </div>
@@ -24,12 +27,24 @@
                     <div class="container__list-right">
                         <ol class="flex">
                             <li class="list-item"><a href="" class="list-link">Sign In</a></li>
-                            <li class="list-item"><a href="" class="list-link">Sign Up</a></li>
+                            <li class="list-item"><a href="" class="list-link brown-button">Sign Up</a></li>
                         </ol>
                     </div>
                 </div>
             </div>
         </nav>
+        <div class="hero">
+            <div class="container-global">
+                <div class="hero__con-pri oswald">
+                    <h1>Responsive layouts <span>don’t have to be a struggle</span>
+                    </h1>
+                </div>
+                <div class="hero__con-sec">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam assumenda obcaecati optio mollitia aperiam.</p>
+                    <a href="#" class="brown-button link oswald">I want to learn</a>
+                </div>
+            </div>
+        </div>
     </main>
     
 </body>

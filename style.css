@@ -20,6 +20,10 @@ Fonts:
 body {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 html {
@@ -36,22 +40,57 @@ img {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
+    border: 2px solid red;
 }
 
 .flex {
     display: flex;
 }
 
+
+.oswald {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.brown-button {
+    background-color: #A59678;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+}
+
+span {
+    color:#A59678;
+}
+
 /* Navigation ---------------------------------------------------*/
 
 .navigation {
+    width: 100%;
     background-color: #2E323F;
     color: white;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+}
+
+.container-nav {
+    justify-content: space-between;
 }
 
 .list-item {
     list-style: none;
     color: white;
+    padding-left: 1em;
+
 }
 
 .list-link {
@@ -61,6 +100,30 @@ img {
 }
 
 /* Hero ---------------------------------------------------*/
+
+.hero {
+    height: 100vh;
+    background-color: #3B4050;
+    color: white;
+    text-align: center;
+}
+
+.hero__con-pri {
+    border: 2px solid blue;
+    padding-top: 2em;
+}
+
+.hero__con-sec {
+    border: 2px solid blue;
+    padding: 2em 0;
+    padding-bottom: 2em;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
 
 
 /* 3 Colum Section ---------------------------------------------------*/
