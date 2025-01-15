@@ -100,6 +100,10 @@ span {
 }
 
 /* Hero ---------------------------------------------------*/
+.container-hero {
+    height: 100%;
+    align-content: space-around;
+}
 
 .hero {
     height: 100vh;
@@ -110,13 +114,11 @@ span {
 
 .hero__con-pri {
     border: 2px solid blue;
-    padding-top: 2em;
 }
 
 .hero__con-sec {
     border: 2px solid blue;
-    padding: 2em 0;
-    padding-bottom: 2em;
+    padding: 7em 0;
 }
 
 .link {
