@@ -74,7 +74,7 @@ span {
     width: 100%;
     background-color: #2E323F;
     color: white;
-    font-size: 1rem;
+    font-size: .5rem;
     text-transform: uppercase;
 }
 
@@ -96,6 +96,10 @@ span {
 }
 
 /* Hero ---------------------------------------------------*/
+main {
+    background-color: #3B4050;
+}
+
 .container-hero {
     height: 70%;
     align-content: space-around;
@@ -103,14 +107,15 @@ span {
 
 .hero {
     height: 100vh;
-    background-color: #3B4050;
     color: white;
     text-align: center;
+    background-color: #3B4050;
+
 }
 
 .hero__con-pri {
     font-size: 1.5rem;
-    padding: 2em 0;
+    padding: 1em 0;
 }
 
 .hero__con-sec {
@@ -129,6 +134,23 @@ span {
 
 
 /* 3 Colum Section ---------------------------------------------------*/
+
+.three-columns {
+    height: auto;
+    width: auto;
+    background-color: lightgray;
+    text-align: center;
+    padding: 3em 0;
+}
+
+h3 {
+    color:#A59678;
+    font-size: 1.25rem;
+}
+
+.column {
+    padding: 1em 0;
+}
 
 
 
