@@ -112,12 +112,7 @@ span {
     text-align: center;
 }
 
-.hero__con-pri {
-    border: 2px solid blue;
-}
-
 .hero__con-sec {
-    border: 2px solid blue;
     padding-bottom: 9em;
 }
 
