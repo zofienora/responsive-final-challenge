@@ -196,7 +196,7 @@ h3 {
 
 .footer h4 {
     color:#A59678;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 10px;
 }
 
@@ -207,4 +207,8 @@ h3 {
 
 .list-item {
     padding: 0;
+}
+
+.footer__con-pri, .footer__con-sec {
+    padding: 1em 0;
 }
