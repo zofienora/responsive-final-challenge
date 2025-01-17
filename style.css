@@ -156,6 +156,29 @@ h3 {
 
 /* Content ---------------------------------------------------*/
 
+.content {
+    line-height: 1.5;
+}
+
+.content__pri h2 {
+    color: #A59678;
+    font-size: 1.5rem;
+}
+
+.content__sec-container {
+    background-color: #2E323F;
+    color: aliceblue;
+    padding: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.content__sec-container h4 {
+    font-size: 1.25rem;
+
+}
+
 
 
 /* Footer ---------------------------------------------------*/
