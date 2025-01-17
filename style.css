@@ -158,6 +158,7 @@ h3 {
 
 .content {
     line-height: 1.5;
+    padding: 3em 0;
 }
 
 .content__pri h2 {
@@ -176,10 +177,34 @@ h3 {
 
 .content__sec-container h4 {
     font-size: 1.25rem;
-
 }
 
 
 
 /* Footer ---------------------------------------------------*/
 
+.footer {
+    background-color:#2E323F;
+    color: white;
+    padding: 3em 0;
+    line-height: 1.5;
+} 
+
+.footer h2 {
+    font-size: 2rem;
+}
+
+.footer h4 {
+    color:#A59678;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.list {
+
+    padding: 0;
+}
+
+.list-item {
+    padding: 0;
+}
