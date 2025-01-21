@@ -30,6 +30,16 @@ img {
     max-width: 100%;
 }
 
+.icons a {
+    text-decoration: none;
+    color: grey;
+}
+
+.icons {
+    font-size: .5rem;
+    color: grey;
+}
+
 /* Global ---------------------------------------------------*/
 
 .container-global {
@@ -82,12 +92,15 @@ button:hover {
     background-color: #2E323F;
     color: white;
     font-size: 1rem;
-    padding: 1em 0;
     text-transform: uppercase;
 }
 
 .container-nav {
     justify-content: space-between;
+}
+
+.navlogo {
+    font-size: 1.5rem;
 }
 
 .list-item {
@@ -197,7 +210,7 @@ main {
 }
 
 .hero__con-pri {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1em 0;
 }
 
