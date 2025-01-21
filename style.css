@@ -116,6 +116,7 @@ span {
     background-color: transparent;
     border: none;
     color:white;
+    display: none;
 }
 
 @media screen and (max-width:800px) {
@@ -153,6 +154,10 @@ span {
    }
 
    .closeButton {
+        display: block;
+   }
+
+   .openSidebar {
         display: block;
    }
 
