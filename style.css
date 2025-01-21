@@ -109,6 +109,15 @@ span {
     display: none;
    }
 
+.openSidebar {
+    position: fixed;
+    top: 1.5%;
+    right: 5%;
+    background-color: transparent;
+    border: none;
+    color:white;
+}
+
 @media screen and (max-width:800px) {
     .container__nav-sec {
         position: fixed;
