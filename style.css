@@ -71,6 +71,10 @@ span {
     color:#A59678;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* Navigation ---------------------------------------------------*/
 
 .navigation {
@@ -119,6 +123,14 @@ span {
     display: none;
 }
 
+#overlay {
+    background-color: rgba(0,0,0, 0.8);
+    position:fixed;
+    inset: 0;
+    z-index: 9; /* behind the navbar but over everything else */
+    display: none; /* it should just show when the navbar is there */
+}
+
 @media screen and (max-width:800px) {
     .container__nav-sec {
         position: fixed;
@@ -161,6 +173,9 @@ span {
         display: block;
    }
 
+   .container__nav-sec.show ~ #overlay {
+    display: block;
+}
     
 }
 
