@@ -15,12 +15,12 @@
             <div class="container-global container-nav flex">
                 <div class="container__nav_pri">
                     <p class="navlogo">CRL</p>
-                    <button class="openSidebar"><img src="image/icons8-menü-50.png" alt="button for opening nav sidebar"></button>
+                    <button class="openSidebar" onclick="openSidebar()"><img src="image/icons8-menü-50.png" alt="button for opening nav sidebar"></button>
                 </div>
-                <div class="container__nav-sec flex">
+                <div class="container__nav-sec flex" id="navbar-side">
                     <div class="container__list-left">
                         <ol class="flex">
-                            <li><button class="closeButton">X</button></li>
+                            <li><button class="closeButton" onclick="closeSidebar()">X</button></li>
                             <li class="list-item"><a href="" class="list-link">Home</a></li>
                             <li class="list-item"><a href="" class="list-link">About</a></li>
                             <li class="list-item"><a href="" class="list-link">Contact</a></li>
