@@ -160,6 +160,16 @@ h3 {
     padding: 1em 0;
 }
 
+@media  screen and (min-width:800px) {
+    .section-col {
+        display: flex;
+    }
+
+    .column + .column {
+        margin-left: 2em;
+    }
+}
+
 
 
 /* Content ---------------------------------------------------*/
@@ -187,7 +197,16 @@ h3 {
     font-size: 1.25rem;
 }
 
+@media  screen and (min-width:800px) {
+    .content__sec {
+        display: flex;
+    }
 
+    .content__sec-container + .content__sec-container {
+        margin-left: 1em;
+    }
+
+}
 
 /* Footer ---------------------------------------------------*/
 
