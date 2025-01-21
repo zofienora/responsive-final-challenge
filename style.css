@@ -85,7 +85,7 @@ span {
 .list-item {
     list-style: none;
     color: white;
-    padding-left: 1em;
+    margin-left: 1.5em;
 
 }
 
@@ -110,7 +110,6 @@ main {
     color: white;
     text-align: center;
     background-color: #3B4050;
-
 }
 
 .hero__con-pri {
@@ -130,6 +129,15 @@ main {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+}
+
+@media  screen and (min-width:800px) {
+    .container-hero {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
 }
 
 
