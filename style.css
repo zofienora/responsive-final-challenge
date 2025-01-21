@@ -216,7 +216,6 @@ main {
 
 .hero__con-sec {
     font-size: 1rem;
-    margin-left: 4em;
 }
 
 .hero__con-sec p {
@@ -235,6 +234,9 @@ main {
         flex-direction: row;
         text-align: left;
         align-items: center;
+    }
+    .hero__con-sec {
+        margin-left: 4em;
     }
 }
 
@@ -266,6 +268,7 @@ h3 {
     .column + .column {
         margin-left: 2em;
     }
+
 }
 
 
