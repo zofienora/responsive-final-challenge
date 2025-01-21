@@ -101,12 +101,12 @@ main {
 }
 
 .container-hero {
-    height: 70%;
+    padding: 7em 0;
+    height: 100%;
     align-content: space-around;
 }
 
 .hero {
-    height: 100vh;
     color: white;
     text-align: center;
     background-color: #3B4050;
@@ -238,4 +238,21 @@ h3 {
 
 .footer__con-pri, .footer__con-sec {
     padding: 1em 0;
+}
+
+@media screen and (min-width:1000px) {
+    .container-footer {
+        display: flex;
+    }
+
+    .footer__con-pri {
+        width: 40%;
+    }
+
+    .footer__con-sec {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        margin-left: 5em;
+    }
 }
