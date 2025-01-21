@@ -74,7 +74,8 @@ span {
     width: 100%;
     background-color: #2E323F;
     color: white;
-    font-size: .5rem;
+    font-size: 1rem;
+    padding: 1em 0;
     text-transform: uppercase;
 }
 
